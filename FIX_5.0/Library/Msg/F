@@ -1,0 +1,17 @@
+Tag	Field Name	Req'd
+41	OrigClOrdID	Y
+37	OrderID		N
+11	ClOrdID		Y
+526	SecondaryClOrdID	N
+583	ClOrdLinkID		N
+66	ListID			N
+586	OrigOrdModTime		N
+1	Account			N
+660	AcctIDSource		N
+581	AccountType		N
+54	Side			Y
+60	TransactTime		Y
+376	ComplianceID		N
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N

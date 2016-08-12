@@ -1,0 +1,34 @@
+OVERVIEW:
+
+This is not a “real” project per se but intended to force everyone to verify (before we start the real projects) that they understand how to
+log into the departmental Linux machines
+write a very basic Java client and server that use sockets to communicate
+compile and run these binaries and have them successfully talk to each other
+
+
+Task
+Write a simple echo client and a simple echo server, in Java.
+
+The server shall:
+Use TCP sockets
+Accept the port # on which it will listen as a command-line flag of the form --port=12345
+Simply print the contents of all messages it receives to stdout.
+Additionally, echo those contents back to the client.
+
+The client shall:
+Use TCP sockets
+Accept the server’s IP address as a command-line flag of the form --serverIP=1.2.3.4
+Accept the server’s port # as a command-line flag of the form --serverPort=1234
+After connecting to the server, send any text the user types over the socket (using “\n” as the delimiter; in other words, sending a packet of text whenever the user hits return).
+Print any reply received from the server (the echo) to stdout.
+Continue to accept input and send packets (when the user hits return) until the user hits Ctrl-C or otherwise kills the process.
+
+Resources
+If you’re new to Java and/or sockets, the following is an excellent resource:
+http://docs.oracle.com/javase/tutorial/networking/sockets/
+
+You’ll notice it more or less gives you the answer (in their example programs). This is by design because this project is not intended to count for many points but rather to just ensure everyone is starting from a reasonable place. Please don’t just submit their example programs however; use the code provided to guide your implementation, since you’re only cheating yourself down the line subsequent projects if you don’t understand what you’re doing here.
+
+To access a Linux machine, you can ssh to linux.cs.uchicago.edu and it will send you to a suitable host. The compiler (javac) is installed on those machines, so you can either compile your code directly each time (javac SomeClass.java) or write a Makefile if you prefer, your choice.
+
+I strongly suggest developing on the Linux machines, rather than your own personal machine, since this is where the TAs will grade your projects. Any differences between this environment and your personal computers are your responsibility.

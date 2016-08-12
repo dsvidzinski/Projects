@@ -1,0 +1,13 @@
+Tag	Field Name	Req'd
+859	ConfirmReqID	Y
+773	ConfirmType	Y
+70	AllocID		N
+793	SecondaryAllocID	N
+467	IndividualAllocID	N
+60	TransactTime		Y
+79	AllocAccount		N
+661	AllocAcctIDSource	N
+798	AllocAccountType	N
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N

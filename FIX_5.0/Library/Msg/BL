@@ -1,0 +1,8 @@
+Tag	Field Name	Req'd
+721	PosMaintRptID	Y
+724	PosReqType	N
+715	ClearingBusinessDate	Y
+716	SettlSessID		N
+730	SettlPrice		N
+734	PriorSettlPrice		N
+714	PosMaintRptRefID	N

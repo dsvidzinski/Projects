@@ -1,0 +1,8 @@
+Tag	Field Name	Req'd
+66	ListID		Y
+391	ClientBidID	N
+390	BidID		N
+60	TransactTime	Y
+58	Text		N
+354	EncodedTextLen	N
+355	EncodedText	N

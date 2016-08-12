@@ -1,0 +1,3 @@
+Tag	Field Name	Req'd
+935	NetworkRequestType	Y
+933	NetworkRequestID	Y

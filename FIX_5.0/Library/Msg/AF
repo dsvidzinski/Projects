@@ -1,0 +1,8 @@
+Tag	Field Name	Req'd
+584	MassStatusReqID	Y
+585	MassStatusReqType	Y
+1	Account			N
+660	AcctIDSource		N
+336	TradingSessionID	N
+625	TradingSessionSubID	N
+54	Side			N

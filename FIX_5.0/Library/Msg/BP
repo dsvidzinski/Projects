@@ -1,0 +1,17 @@
+Tag	Field Name	Req'd
+964	SecurityReportID	N
+320	SecurityReqID		N
+322	SecurityResponseID	N
+323	SecurityResponseType	N
+715	ClearingBusinessDate	N
+980	SecurityUpdateAction	N
+292	CorporateAction		N
+15	Currency		N
+336	TradingSessionID	N
+625	TradingSessionSubID	N
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N
+827	ExpirationCycle		N
+561	RoundLot		N
+562	MinTradeVol		N

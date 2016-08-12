@@ -1,0 +1,11 @@
+
+Makefile is provided with default port flag 8888, type "make" to compile and run
+
+webServer.java and RequestHandler.java should be in the same directory as www file 
+
+EG 
+If files are saved at:  /home/username/Networks_54001/project1 
+http://linux1.cs.uchicago.edu:8888/index.html  - will serve index.html page 
+
+
+

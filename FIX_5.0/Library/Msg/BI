@@ -1,0 +1,8 @@
+Tag	Field Name	Req'd
+335	TradSesReqID	Y
+336	TradingSessionID	N
+625	TradingSessionSubID	N
+207	SecurityExchange	N
+338	TradSesMethod		N
+339	TradSesMode		N
+263	SubscriptionRequestType	Y

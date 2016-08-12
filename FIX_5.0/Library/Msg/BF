@@ -1,0 +1,5 @@
+Tag	Field Name	Req'd
+923	UserRequestID	Y
+553	Username	Y
+926	UserStatus	N
+927	UserStatusText	N

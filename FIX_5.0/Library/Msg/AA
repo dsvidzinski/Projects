@@ -1,0 +1,6 @@
+Tag	Field Name	Req'd
+320	SecurityReqID	Y
+322	SecurityResponseID	Y
+560	SecurityRequestResult	Y
+393	TotNoRelatedSym		N
+893	LastFragment		N

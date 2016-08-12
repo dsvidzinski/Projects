@@ -1,0 +1,6 @@
+Tag	Field Name	Req'd
+262	MDReqID		Y
+281	MDReqRejReason	N
+58	Text		N
+354	EncodedTextLen	N
+355	EncodedText	N

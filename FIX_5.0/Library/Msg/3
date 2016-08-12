@@ -1,0 +1,8 @@
+Tag	Field Name	Req'd
+45	RefSeqNum	Y
+371	RefTagID	N
+372	RefMsgType	N
+373	SessionRejectReason	N
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N

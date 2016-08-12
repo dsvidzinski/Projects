@@ -1,0 +1,25 @@
+Tag	Field Name	Req'd
+721	PosMaintRptID	Y
+709	PosTransType	Y
+710	PosReqID	N
+712	PosMaintAction	Y
+713	OrigPosReqRefID	N
+722	PosMaintStatus	Y
+723	PosMaintResult	N
+715	ClearingBusinessDate	Y
+716	SettlSessID		N
+717	SettlSessSubID		N
+1	Account			N
+660	AcctIDSource		N
+581	AccountType		N
+15	Currency		N
+60	TransactTime		N
+718	AdjustmentType		N
+834	ThresholdAmount		N
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N
+120	SettlCurrency		N
+719	ContraryInstructionIndicator	N
+720	PriorSpreadIndicator		N
+714	PosMaintRptRefID		N

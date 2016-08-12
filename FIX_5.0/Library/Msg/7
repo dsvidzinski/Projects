@@ -1,0 +1,18 @@
+Tag	Field Name	Req'd
+2	AdvId Y
+5	AdvTransType	Y
+3	AdvRefID	N
+4	AdvSide		Y
+53	Quantity	Y
+854	QtyType		N
+44	Price		N
+15	Currency	N
+75	TradeDate	N
+60	TransactTime	N
+58	Text		N
+354	EncodedTextLen	N
+355	EncodedText	N
+149	URLLink		N
+30	LastMkt		N
+336	TradingSessionID	N
+625	TradingSessionSubID	N

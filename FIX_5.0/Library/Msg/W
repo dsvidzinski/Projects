@@ -1,0 +1,12 @@
+Tag	Field Name	Req'd
+262	MDReqID		N
+291	FinancialStatus	N
+292	CorporateAction	N
+451	NetChgPrevDay	N
+813	ApplQueueDepth	N
+814	ApplQueueResolution	N
+963	MDReportID		N
+715	ClearingBusinessDate	N
+1021	MDBookType		N
+1022	MDFeedType		N
+75	TradeDate		N

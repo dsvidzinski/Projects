@@ -1,0 +1,23 @@
+Tag	Field Name	Req'd
+721	PosMaintRptID	Y
+710	PosReqID	N
+727	TotalNumPosReports	N
+325	UnsolicitedIndicator	N
+728	PosReqResult		Y
+729	PosReqStatus		Y
+1	Account			N
+660	AcctIDSource		N
+581	AccountType		N
+15	Currency		N
+725	ResponseTransportType	N
+726	ResponseDestination	N
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N
+724	PosReqType		N
+573	MatchStatus		N
+715	ClearingBusinessDate	N
+263	SubscriptionRequestType	N
+716	SettlSessID		N
+717	SettlSessSubID		N
+120	SettlCurrency		N

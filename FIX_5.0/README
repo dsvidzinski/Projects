@@ -1,0 +1,51 @@
+
+///***BACKGROUND***///
+
+I implemented a FIX 5.0 parser. FIX 5.0 is noticibly different from previous versions. 
+
+For example according to : http://fixparser.targetcompid.com/
+
+8=FIX.4.1^A9=103^A35=D^A34=4^A49=BANZAI^A52=20121105-23:24:55^A56=EXEC^A11=1352157895032^A21=1^A38=10000^A40=1^A54=1^A55=ORCL^A59=0^A10=047^A 
+
+is a valid message for NEW ORDER SINGLE;  
+
+HOWEVER IN FIX 5.0 according to http://www.onixs.biz/fix-dictionary/5.0/msgType_D_68.html  NEW ORDER SINGLEs do NOT contain tags 38 and 55 - be vigilant with your input!
+
+
+///***HOW THINGS WORK***///
+
+First, please take a look at “input” and “FIX.html” files
+input - is a file where the user should provide his messages. 
+FIX.html - is how parsed messages should look like in HTML (I used Chrome ) 
+
+You can delete FIX.html file if you like, a new one will be automatically regenerated
+
+NOTE: The only file that should be modified by a user is "input" - DO NOT MODIFY ANY OTHER FILES 
+
+
+1) cd into FIX_5.0 directory
+
+2) Provide input messages in a file called input. There is an existing input file in the directory. Please take a look at how messages should be formated if you havent done 
+   so already.  Delimeters are represented by "^A" symbol
+   
+3) type "make" in a terminal - this should compile all the necessary files and produce ./result executable  
+
+4) execute ./result - this produces FIX.html file.
+
+5) to clean up type "make clean"
+
+
+Pay attention to the terminal output. If input messages contain errors or are not compatible with FIX 5.0 standard, there will be reported errors. 
+
+NOTE: MY message library does not contain lower case message types; so 35=a will not work. I do have the rest of the messages which is about 75/100 for FIX 5.0
+http://www.onixs.biz/fix-dictionary/5.0/msgs_by_msg_type.html 
+
+
+
+
+
+
+ 
+
+
+

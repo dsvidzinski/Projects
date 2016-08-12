@@ -1,0 +1,12 @@
+Tag	Field Name	Req'd
+66	ListID		Y
+429	ListStatusType	Y
+82	NoRpts		Y
+431	ListOrderStatus	Y
+83	RptSeq		Y
+444	ListStatusText	N
+445	EncodedListStatusTextLen	N
+446	EncodedListStatusText		N
+60	TransactTime			N
+68	TotNoOrders			Y
+893	LastFragment			N

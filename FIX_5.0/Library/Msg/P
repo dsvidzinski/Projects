@@ -1,0 +1,15 @@
+Tag	Field Name	Req'd
+70	AllocID		Y
+793	SecondaryAllocID	N
+75	TradeDate		N
+60	TransactTime		N
+87	AllocStatus		Y
+88	AllocRejCode		N
+626	AllocType		N
+808	AllocIntermedReqType	N
+573	MatchStatus		N
+460	Product			N
+167	SecurityType		N
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N

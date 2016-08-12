@@ -1,0 +1,7 @@
+Tag	Field Name	Req'd
+262	MDReqID		N
+813	ApplQueueDepth	N
+814	ApplQueueResolution	N
+1021	MDBookType		N
+1022	MDFeedType		N
+75	TradeDate		N

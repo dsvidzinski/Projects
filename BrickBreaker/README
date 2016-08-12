@@ -1,0 +1,6 @@
+
+This is multi-threaded brick breaker game that I created as a final project in a Java class. 
+
+Makefile is provided, to play the game type "make"
+
+To remove all .class and .~ tope "make clean" 

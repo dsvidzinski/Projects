@@ -1,0 +1,10 @@
+Tag	Field Name	Req'd
+664	ConfirmID	Y
+75	TradeDate	Y
+60	TransactTime	Y
+940	AffirmStatus	Y
+774	ConfirmRejReason	N
+573	MatchStatus		N
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N

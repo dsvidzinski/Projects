@@ -1,0 +1,27 @@
+Tag	Field Name	Req'd
+8	BeginString	Y
+9	BodyLength	Y
+35	MsgType		Y
+49	SenderCompID	Y
+56	TargetCompID	Y
+115	OnBehalfOfCompID	N
+128	DeliverToCompID		N
+90	SecureDataLen		N
+91	SecureData		N
+34	MsgSeqNum		Y
+50	SenderSubID		N
+142	SenderLocationID	N
+57	TargetSubID		N
+143	TargetLocationID	N
+116	OnBehalfOfSubID		N
+144	OnBehalfOfLocationID	N
+129	DeliverToSubID		N
+145	DeliverToLocationID	N
+43	PossDupFlag		N
+97	PossResend		N
+52	SendingTime		Y
+122	OrigSendingTime		N
+212	XmlDataLen		N
+213	XmlData			N
+347	MessageEncoding		N
+369	LastMsgSeqNumProcessed	N

@@ -1,0 +1,18 @@
+Tag	Field Name	Req'd
+568	TradeRequestID	Y
+569	TradeRequestType	Y
+263	SubscriptionRequestType	N
+748	TotNumTradeReports	N
+749	TradeRequestResult	Y
+750	TradeRequestStatus	Y
+442	MultiLegReportingType	N
+725	ResponseTransportType	N
+726	ResponseDestination	N
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N
+1011	MessageEventSource	N
+1003	TradeID			N
+1040	SecondaryTradeID	N
+1041	FirmTradeID		N
+1042	SecondaryFirmTradeID	N

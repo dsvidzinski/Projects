@@ -1,0 +1,12 @@
+Tag	Field Name	Req'd
+262	MDReqID		Y
+263	SubscriptionRequestType	Y
+264	MarketDepth		Y
+265	MDUpdateType		N
+266	AggregatedBook		N
+286	OpenCloseSettlFlag	N
+546	Scope			N
+547	MDImplicitDelete	N
+815	ApplQueueAction		N
+812	ApplQueueMax		N
+1070	MDQuoteType		N

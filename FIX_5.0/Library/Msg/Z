@@ -1,0 +1,10 @@
+Tag	Field Name	Req'd
+131	QuoteReqID	N
+117	QuoteID		N
+298	QuoteCancelType	Y
+301	QuoteResponseLevel	N
+1	Account			N
+660	AcctIDSource		N
+581	AccountType		N
+336	TradingSessionID	N
+625	TradingSessionSubID	N

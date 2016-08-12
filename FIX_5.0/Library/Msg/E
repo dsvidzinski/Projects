@@ -1,0 +1,19 @@
+Tag	Field Name	Req'd
+66	ListID		Y
+390	BidID		N
+391	ClientBidID	N
+414	ProgRptReqs	N
+394	BidType		Y
+415	ProgPeriodInterval	N
+480	CancellationRights	N
+481	MoneyLaunderingStatus	N
+513	RegistID		N
+433	ListExecInstType	N
+69	ListExecInst		N
+352	EncodedListExecInstLen	N
+353	EncodedListExecInst	N
+765	AllowableOneSidednessPct	N
+766	AllowableOneSidednessValue	N
+767	AllowableOneSidednessCurr	N
+68	TotNoOrders			Y
+893	LastFragment			N

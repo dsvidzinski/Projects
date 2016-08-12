@@ -1,0 +1,12 @@
+Tag	Field Name	Req'd
+98	EncryptMethod	Y
+108	HeartBtInt	Y
+95	RawDataLength	N
+96	RawData		N
+141	ResetSeqNumFlag	N
+789	NextExpectedMsgSeqNum	N
+383	MaxMessageSize		N
+464	TestMessageIndicator	N
+553	Username		N
+554	Password		N
+1137	DefaultApplVerID	Y

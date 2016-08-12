@@ -1,0 +1,9 @@
+Tag	Field Name	Req'd
+42	OrigTime	N
+61	Urgency		N
+148	Headline	Y
+358	EncodedHeadlineLen	N
+359	EncodedHeadline		N
+149	URLLink			N
+95	RawDataLength		N
+96	RawData			N

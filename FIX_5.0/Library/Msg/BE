@@ -1,0 +1,8 @@
+Tag	Field Name	Req'd
+923	UserRequestID	Y
+924	UserRequestType	Y
+553	Username	Y
+554	Password	N
+925	NewPassword	N
+95	RawDataLength	N
+96	RawData		N

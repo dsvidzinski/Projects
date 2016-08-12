@@ -1,0 +1,17 @@
+Tag	Field Name	Req'd
+37	OrderID		Y
+198	SecondaryOrderID	N
+11	ClOrdID			N
+1036	ExecAckStatus		Y
+17	ExecID			Y
+127	DKReason		N
+54	Side			Y
+32	LastQty			N
+31	LastPx			N
+423	PriceType		N
+669	LastParPx		N
+14	CumQty			N
+6	AvgPx			N
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N

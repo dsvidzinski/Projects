@@ -1,0 +1,16 @@
+Tag	Field Name	Req'd
+791	SettlInstReqID	Y
+60	TransactTime	Y
+79	AllocAccount	N
+661	AllocAcctIDSource	N
+54	Side			N
+460	Product			N
+167	SecurityType		N
+461	CFICode			N
+168	EffectiveTime		N
+126	ExpireTime		N
+779	LastUpdateTime		N
+169	StandInstDbType		N
+170	StandInstDbName		N
+171	StandInstDbID		N
+120	SettlCurrency		N

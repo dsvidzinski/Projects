@@ -1,0 +1,18 @@
+Tag	Field Name	Req'd
+23	IOIID Y
+28	IOITransType	Y
+26	IOIRefID	N
+54	Side		Y
+854	QtyType		N
+27	IOIQty		Y
+15	Currency	N
+423	PriceType	N
+44	Price		N
+62	ValidUntilTime	N
+25	IOIQltyInd	N
+130	IOINaturalFlag	N
+58	Text		N
+354	EncodedTextLen	N
+355	EncodedText	N
+60	TransactTime	N
+149	URLLink		N

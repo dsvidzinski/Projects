@@ -1,0 +1,9 @@
+Tag	Field Name	Req'd
+977	ContIntRptID	Y
+60	TransactTime	N
+978	LateIndicator	N
+979	InputSource	N
+715	ClearingBusinessDate	Y
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N

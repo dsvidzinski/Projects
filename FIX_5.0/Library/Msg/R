@@ -1,0 +1,8 @@
+Tag	Field Name	Req'd
+131	QuoteReqID	Y
+644	RFQReqID	N
+11	ClOrdID		N
+528	OrderCapacity	N
+58	Text		N
+354	EncodedTextLen	N
+355	EncodedText	N

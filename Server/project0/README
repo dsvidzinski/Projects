@@ -1,0 +1,15 @@
+I provide separate folders with separate 
+Makefiles for client and server. 
+
+Server: 
+To compile and run, type make or make server 
+Server will be listening on port 8888
+
+Client: 
+To compile and run, type make or make client
+Client will be logining into IP 128.135.165.171 (linux1) 
+and sending messages to port 8888 
+
+NOTE: If you are on linux2 machine, the IP address is 128.135.165.173
+
+

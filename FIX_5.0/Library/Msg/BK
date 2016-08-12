@@ -1,0 +1,10 @@
+Tag	Field Name	Req'd
+964	SecurityReportID	N
+320	SecurityReqID		N
+322	SecurityResponseID	N
+560	SecurityRequestResult	N
+393	TotNoRelatedSym		N
+715	ClearingBusinessDate	N
+980	SecurityUpdateAction	N
+292	CorporateAction		N
+893	LastFragment		N

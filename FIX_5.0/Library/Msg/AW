@@ -1,0 +1,23 @@
+Tag	Field Name	Req'd
+833	AsgnRptID	Y
+832	TotNumAssignmentReports	N
+912	LastRptRequested	N
+1	Account			N
+581	AccountType		N
+15	Currency		N
+834	ThresholdAmount		N
+730	SettlPrice		N
+731	SettlPriceType		N
+732	UnderlyingSettlPrice	N
+432	ExpireDate		N
+744	AssignmentMethod	N
+745	AssignmentUnit		N
+746	OpenInterest		N
+747	ExerciseMethod		N
+716	SettlSessID		N
+717	SettlSessSubID		N
+715	ClearingBusinessDate	Y
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N
+734	PriorSettlPrice		N

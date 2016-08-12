@@ -1,0 +1,61 @@
+OVERVIEW:
+
+Task
+Write a simple webserver, in Java.
+
+The server shall:
+Support GET and HEAD requests.
+Accept one command-line flag (--serverPort), indicating which TCP port to bind to.
+
+The server shall not:
+Support POST requests, nor HTTPS.
+Support or care about cookies.
+Support persistent connections.
+
+You are not allowed to use off-the-shelf HTTP server libraries, for obvious reasons. Please contact me early if you have doubts about whether a Java library you want to use is appropriate or not.
+
+Serving Fileset Structure
+Download this tarball here: project1_serving_tree.tar.bz2
+
+Copy it to your directory on the lab machines (e.g., to ~/54001/project1), and unpack it:
+tar xvjf project1_serving_tree.tar.bz2
+
+This will create the file structure you need to serve. The root of this directory tree is named “www”. To run your server, unpack the tarball in the same directory where your server binary lives. Then, all URLs are relative to “www” being the root. For example, assume your server was running on host “linux2” on port 1234, and you start your server from the directory /home/$USERNAME/54001/project1/. If a web client requested the URL “http://linux2.cs.uchicago.edu:1234/foo/bar.html”, your server should try to return the contents of the file “/home/$USERNAME/54001/project1/www/foo/bar.html” (if it exists).
+
+There is one special file in the tarball: www/redirect.defs. This is not a real file that your webserver should serve (if someone tries to fetch it, return 404). Rather, it defines local URL to remote URL mappings for redirects. If anyone tries to fetch one of the local URLs in that map, instead of returning a file, return a 301 redirect to the redirected remote URL. If you’ve written your code properly, you’ll see the web browser or web client you’re testing with actually redirect to the remote resource.
+
+Note that your server should work for other sets of files---the serving tree I gave you is just to help you test. If you hardcode your server to only work for those files, you’ll have a bad time. When your server starts up, it should inspect the contents of “www” in the current directory and be able to serve 200s for all those files that are found there. 
+
+Because there are hundreds of MIME types, I’m not going to make you handle them all. However, you must be able to identify the following types of files (based on extension) and set the Content-Type: header appropriately on the response:
+text/html
+text/plain (.txt)
+application/pdf
+image/png
+image/jpeg (.jpg)
+
+See this Wikipedia page for a good rundown on common MIME types.
+
+
+Basic Strategy
+If you receive a GET or HEAD request for a resource whose path exists in the fileset, then return a 200 (and return the file’s contents, if it’s a GET request).
+
+
+Else if there is a redirect for that path in the special redirect.defs file, then return a 301 response, indicating the redirected URL.
+
+Else, return 404 because the requested resource does not exist.
+
+If you receive a malformed request or a POST request (not supported), return 403 (Forbidden).
+
+Don’t forget that HEAD should work for any valid URL that GET works for.
+
+
+Hints
+You all share the same machines (e.g. linux1, linux2) so if you start your server and get an error about port 1234 being in use, just try another port number greater than 1024.
+The textbook actually has some great examples w.r.t. the format of HTTP messages.
+Use a Linux command-line client (such as curl) to test your code. Read the man pages and find out all the options. You can request a HEAD request, rather than GET, for instance.
+Don’t forget that at the end of each line, you can’t just terminate with a “\n” but need to use “\r\n” (both a “normal” newline and a line feed character.
+Don’t forget you need a blank line (just “\r\n”) in between the header and body of the response to a GET request.
+Don’t forget to set the “Content-Type:” header field in a response, when returning data, so that the client can properly interpret the response. 
+Feel free to start from my instructor’s solution to Project 0 if you want a good working TCP server with command-line parsing.
+
+

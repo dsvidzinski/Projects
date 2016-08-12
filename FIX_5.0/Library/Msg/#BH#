@@ -1,0 +1,16 @@
+Tag	Field Name	Req'd	Comments
+<MessageHeader>		Y	MsgType <35> = BH
+859			ConfirmReqID	Y    Unique identifier for this message
+773			ConfirmType	Y    Denotes whether this message is being used to request a confirmation or a trade status message
+Component Block - <OrdAllocGrp>		N    Indicates number of orders to be combined for allocation. If order(s) were manually delivered set to 1 (one).Required when AllocNoOrdersType = 1
+70	  AllocID N			Used to refer to an earlier Allocation Instruction.
+793	  SecondaryAllocID		N    Used to refer to an earlier Allocation Instruction via its secondary identifier
+467	  IndividualAllocID		N    Used to refer to an allocation account within an earlier Allocation Instruction.
+60	  TransactTime			Y    Represents the time this message was generated
+79	  AllocAccount			N    Account number for the trade being confirmed by this message
+661	  AllocAcctIDSource		N    
+798	  AllocAccountType		N    
+58	  Text				N    
+354	  EncodedTextLen		N    
+355	  EncodedText			N    
+<MessageTrailer>			Y     

@@ -1,0 +1,22 @@
+Tag	Field Name	Req'd
+37	OrderID		Y
+198	SecondaryOrderID	N
+526	SecondaryClOrdID	N
+11	ClOrdID			Y
+583	ClOrdLinkID		N
+41	OrigClOrdID		Y
+39	OrdStatus		Y
+636	WorkingIndicator	N
+586	OrigOrdModTime		N
+66	ListID			N
+1	Account			N
+660	AcctIDSource		N
+581	AccountType		N
+229	TradeOriginationDate	N
+75	TradeDate		N
+60	TransactTime		N
+434	CxlRejResponseTo	Y
+102	CxlRejReason		N
+58	Text			N
+354	EncodedTextLen		N
+355	EncodedText		N

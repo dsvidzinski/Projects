@@ -1,0 +1,5 @@
+Tag	Field Name	Req'd
+66	ListID		Y
+58	Text		N
+354	EncodedTextLen	N
+355	EncodedText	N

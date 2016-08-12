@@ -1,0 +1,7 @@
+Tag	Field Name	Req'd
+131	QuoteReqID	Y
+644	RFQReqID	N
+658	QuoteRequestRejectReason	Y
+58	Text				N
+354	EncodedTextLen			N
+355	EncodedText			N

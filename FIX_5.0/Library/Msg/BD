@@ -1,0 +1,5 @@
+Tag	Field Name	Req'd
+937	NetworkStatusResponseType	Y
+933	NetworkRequestID		N
+932	NetworkResponseID		Y
+934	LastNetworkResponseID		N

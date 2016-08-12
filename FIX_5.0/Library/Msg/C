@@ -1,0 +1,11 @@
+Tag	Field Name	Req'd
+164	EmailThreadID	Y
+94	EmailType	Y
+42	OrigTime	N
+147	Subject		Y
+356	EncodedSubjectLen	N
+357	EncodedSubject		N
+37	OrderID			N
+11	ClOrdID			N
+95	RawDataLength		N
+96	RawData			N
